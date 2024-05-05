@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
-<body>
+<body oncontextmenu="return false">
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav_logo">Wendy</a>
@@ -61,7 +64,7 @@
     <!-- Home -->
     <section class="home section" id="home">
       <div class="home_container container grid">
-        <div class="home content grid">
+        <div class="home_content grid">
           <div class="home_social">
             <a href="https://www.linkedin.com/in/wendy-lagho-2b3126236/" target="_blank" class="home_social-icon"></i>
             </a>
@@ -96,7 +99,7 @@
                   class="home__blob-img"
                   x="-79"
                   y="-46"
-                  xlink:href="img/"/>
+                  xlink:href="img/Passport_img.jpg"/>
               </g>
             </svg>
           </div>
@@ -113,7 +116,7 @@
         </div>
       </div>
 
-      <!-- Home Scroll 
+      <!-- Home Scroll -->
         <div class="home_scroll">
           <a href="#about" class="home__scroll-button button--flex">
             <i class="uil uil-mouse-alt home__scroll-mouse"></i>
@@ -121,12 +124,84 @@
             <i class="uil uil-arrow-down home__scroll-arrow"></i>
           </a>
         </div>
-      -->
+
       </div>
     </section>
 
     <!-- About -->
+<section class="about section" id="about">
+  <h2 class="section_title">About Me</h2>
+  <span class="section_subtitle">My Introduction</span>
+  <div class="about_container container grid">
+    <img src="img/Passport_img.jpg" alt="" class="about_img">
+    <div class="about_data">
+      <p class="about_description">
+        I am a third-year undergraduate student at Strathmore University, Nairobi. I am currently pursuing a Bachelor's degree in Informatics and Computer Science. I am passionate about technology and I am always eager to learn new things. I am a hardworking and dedicated individual who is always ready to take on new challenges.
+      </p>
+      <div class="about_info">
+        <div>
+          <span class="about_info-title">02+</span>
+          <span class="about_info-name">Frontend <br /> Projects</span>
+        </div>
 
+        <div>
+          <span class="about_info-title">03+</span>
+          <span class="about_info-name">Backend <br /> Projects</span>
+        </div>
+
+        <div>
+          <span class="about_info-title">01+</span>
+          <span class="about_info-name">Months <br /> Experience</span>
+        </div>
+
+        <div class="about_buttons">
+          <a download="" href="CV/Wendy_Lagho_CV.pdf" class="button button--flex">
+            Download CV <i class="fas fa-download button__icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Skills -->
+
+<section class="skills section" id="skills">
+  <h2 class="section_title">Skills</h2>
+  <span class="section_subtitle">My Technical Level</span>
+
+  <div class="skills_container container grid">
+    <div>
+      <!-- Skill 1 -->
+      <div class="skills_content skills_open">
+        <div class="skills_header">
+          <i class="fas fa-pencil-ruler skills__icon"></i>
+          <div>
+            <h1 class="skills_title">Programming Languages</h1>
+          </div>
+          <i class="uil uil-angle-down skills_arrow"></i>
+        </div>
+
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">Java</h3>
+              <span class="skills_number">80%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_java"></span>
+            </div>
+          </div>
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h3 class="skills_name">C++</h3>
+              <span class="skills_number">70%</span>
+            </div>
+            <div class="skills_bar">
+              <span class="skills_percentage skills_c++"></span>
+            </div>
+          </div>
+</section>
   </main>
 </body>
 </html>

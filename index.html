@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,584 +9,808 @@
     <link rel="stylesheet" href="assets/newcss.css" />
     <link
       rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
-<body oncontextmenu="return false">
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav_logo">Wendy</a>
-      <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list grid">
-          <li class="nav_item">
-            <a href="#home" class="nav_link active-link">
-              <i class="uil uil-estate nav__icon"></i>Home
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link">
-              <i class="uil uil-user nav__icon"></i>About
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#skills" class="nav_link">
-              <i class="uil uil-file-alt nav__icon"></i>Skills
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#qualification" class="nav_link">
-              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#portfolio" class="nav_link">
-              <i class="uil uil-scenery nav__icon"></i>Projects
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#contact" class="nav_link">
-              <i class="uil uil-message nav__icon"></i>Contact-Me
-            </a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav__close" id="nav-close"></i>
-      </div>
-      <div class="nav_btns">
-        <!-- Theme change button -->
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Wendy</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Main -->
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-  <main class="main">
-    <!-- Home -->
-    <section class="home section" id="home">
-      <div class="home_container container grid">
-        <div class="home_content grid">
-          <div class="home_social">
-            <a href="https://www.linkedin.com/in/wendy-lagho-2b3126236/" target="_blank" class="home_social-icon"></i>
-            </a>
-
-            <a href="https://github.com/Wendy-Lagho" target="_blank" class="home_social-icon">
-              <i class="uil uil-github-alt home__icon"></i>
-            </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
           </div>
-          <div class="home_img">
-            <svg
-              class="home_blob"
-              viewBox="0 0 200 187"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-            
-              <mask id="mask0" mask-type="alpha">
-                <path
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/wendy-lagho-2b3126236/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+
+              <a
+                href="https://github.com/Wendy-Lagho"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
                     d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                       130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                       97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
                       0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
-              </mask>
-              <g mask="url(#mask0)">
-                <path
-                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                   -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                />
-                <image
-                  class="home__blob-img"
-                  x="-79"
-                  y="-46"
-                  xlink:href="img/Passport_img.jpg"/>
-              </g>
-            </svg>
-          </div>
-          <div class="home_data">
-            <h1 class="home_title">Hi, I'm Wendy Lagho</h1>
-            <h3 class="home_subtitle">Informatics and Computer Science Student</h3>
-            <p class="home_description">
-              A third-year undergraduate CS student at
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-46"
+                    xlink:href="assets/img/Passport_img.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Wendy Lagho</h1>
+              <h3 class="home__subtitle">
+                Informatics and Computer Science Student
+              </h3>
+              <p class="home__description">
+                A third-year undergraduate CS student at
                 <strong>Strathmore University </strong>, Nairobi.
-            </p>
-            <a href="#contact" class="button button--flex">
-              Contact Me <i class="uil uil-message button_icon"></i>
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+<!--
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
+          </div>
+-->
         </div>
-      </div>
+      </section>
 
-      <!-- Home Scroll
-        <div class="home_scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-            <span class="home__scroll-name">Scroll down</span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-          </a>
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets\img\Passport_img.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              I am a third-year undergraduate student at Strathmore University, Nairobi. I am currently pursuing a Bachelor's degree in Informatics and Computer Science. I am passionate about technology and I am always eager to learn new things. I am a hardworking, avid reader and dedicated individual who is always ready to take on new challenges.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name">Frontend <br />Projects</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name">Backend <br />
+                  Projects</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name">Months <br />experience</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="assets\MyCV.pdf" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
         </div>
+      </section>
 
-      -->
+      <!--===================== SKILLS =====================-->
 
-      </div>
-    </section>
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
 
-    <!-- About -->
-<section class="about section" id="about">
-  <h2 class="section_title">About Me</h2>
-  <span class="section_subtitle">My Introduction</span>
-  <div class="about_container container grid">
-    <img src="img/Passport_img.jpg" alt="" class="about_img">
-    <div class="about_data">
-      <p class="about_description">
-        I am a third-year undergraduate student at Strathmore University, Nairobi. I am currently pursuing a Bachelor's degree in Informatics and Computer Science. I am passionate about technology and I am always eager to learn new things. I am a hardworking and dedicated individual who is always ready to take on new challenges.
-      </p>
-      <div class="about_info">
-        <div>
-          <span class="about_info-title">02+</span>
-          <span class="about_info-name">Frontend <br /> Projects</span>
-        </div>
-
-        <div>
-          <span class="about_info-title">03+</span>
-          <span class="about_info-name">Backend <br /> Projects</span>
-        </div>
-
-        <div>
-          <span class="about_info-title">01+</span>
-          <span class="about_info-name">Months <br /> Experience</span>
-        </div>
-
-        <div class="about_buttons">
-          <a download="" href="CV/Wendy_Lagho_CV.pdf" class="button button--flex">
-            Download CV <i class="fas fa-download button__icon"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-</section>
-
-<!-- Skills -->
-
-<section class="skills section" id="skills">
-  <h2 class="section_title">Skills</h2>
-  <span class="section_subtitle">My Technical Level</span>
-
-  <div class="skills_container container grid">
-    <div>
-      <!-- Skill 1 -->
-      <div class="skills_content skills_open">
-        <div class="skills_header">
-          <i class="fas fa-pencil-ruler skills__icon"></i>
+        <div class="skills__container container grid">
           <div>
-            <h1 class="skills_title">Programming Languages</h1>
-          </div>
-          <i class="uil uil-angle-down skills_arrow"></i>
-        </div>
+            <!--==================== Skill 1 =================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="fas fa-pencil-ruler skills__icon"></i>
 
-        <div class="skills_list grid">
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">Java</h3>
-              <span class="skills_number">80%</span>
+                <div>
+                  <h1 class="skills__title">Programming Languages</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__nuber">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C++</h3>
+                    <span class="skills__nuber">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__nuber">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_java"></span>
-            </div>
-          </div>
 
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">C++</h3>
-              <span class="skills_number">70%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_c++"></span>
-            </div>
-          </div>
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">Python</h3>
-              <span class="skills_number">50%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_python"></span>
-            </div>
-          </div>
-        </div>
-      </div>
+            <!--==================== Skill 2 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-code skills__icon"></i>
 
-      <!-- Skill 2 -->
-      <div class="skills_content skills_close">
-        <div class="skills_header">
-          <i class="fas fa-code skills__icon"></i>
-          <div>
-            <h1 class="skills_title">IT Constructs</h1>
-          </div>
-          <i class="uil uil-angle-down skills_arrow"></i>
-        </div>
+                <div>
+                  <h1 class="skills__title">IT Constructs</h1>
+                </div>
 
-        <div class="skills_list grid">
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">OOP</h3>
-              <span class="skills_number">80%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_oop"></span>
-            </div>
-          </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
 
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">DS & Algorithms</h3>
-              <span class="skills_number">60%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_ds"></span>
-            </div>
-          </div>
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">DBMS</h3>
-              <span class="skills_number">75%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_dbms"></span>
-            </div>
-          </div>
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">OS</h3>
-              <span class="skills_number">50%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_os"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill 3 -->
-  <div class="skills_content skills_close">
-    <div class="skills_header">
-      <i class="fas fa-swatchbook skills__icon"></i>
-      <div>
-        <h1 class="skills_title">technologies</h1>
-      </div>
-      <i class="uil uil-angle-down skills_arrow"></i>
-    </div>
-
-    <i class="uil uil-angle-down skills__arrow"></i>
-  </div>
-
-
-    <div class="skills_list grid">
-      <div class="skills_data">
-        <div class="skills_titles">
-          <h3 class="skills_name">HTML</h3>
-          <span class="skills_number">80%</span>
-        </div>
-        <div class="skills_bar">
-          <span class="skills_percentage skills_html"></span>
-        </div>
-      </div>
-      <div class="skills_data">
-        <div class="skills_titles">
-          <h3 class="skills_name">CSS</h3>
-          <span class="skills_number">70%</span>
-        </div>
-        <div class="skills_bar">
-          <span class="skills_percentage skills_css"></span>
-        </div>
-      </div>
-      <div class="skills_data">
-        <div class="skills_titles">
-          <h3 class="skills_name">JavaScript</h3>
-          <span class="skills_number">60%</span>
-        </div>
-        <div class="skills_bar">
-          <span class="skills_percentage skills_js"></span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div> 
-</section>
-
-<!-- Qualifications -->
-
-<section class="qualification_section service_section" id="qualification">
-  <h2 class="section_title">Qualifications</h2>
-  <span class="section_subtitle">My Personal Journey</span>
-
-  <div class="qualification_container container grid services_container">
-    <div class="qualification_tabs">
-      <div class="qualification_button button--flex qualification_active" data-target='#education'>
-        <i class="uil uil-graduation-cap qualification_icon"></i>
-        Education
-      </div>
-    </div>
-
-    <div class="qualification_sections">
-
-      <!-- Qualification Content 1 -->
-
-      <div class="qualification_content qualification_active services_content" data-content id="education">
-
-        <!-- Qualification 1 -->
-
-        <div class="qualification_data">
-          <div>
-            <h3 class="qualification_title">LCM</h3>
-            <span class="qualification_subtitle">High School</span>
-            <div class="qualification_calendar">
-              <i class="uil uil-calendar-alt"></i>
-              2018 - 2021
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-              View More 
-              <i class="uil uil-arrow-right button_icon"></i>
-            </span>
-            <div class="services_modal">
-              <div class="services_modal-content">
-                <h4 class="services_modal-title">Summary :</h4>
-                <i class="uil uil-times services__modal-close"></i>
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Completed my high school education at LCM <br>
-                    Subjects studied: Mathematics, English, Biology, Chemistry, Physics, History, Geography. </p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Scored an B+ in my KCSE exams</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Participated in St Johns Ambulance club and was Games Captain </p>
-                  </li>
-                </ul>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OOP</h3>
+                    <span class="skills__nuber">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__php"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DS $ Algorithms</h3>
+                    <span class="skills__nuber">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__node"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DBMS</h3>
+                    <span class="skills__nuber">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__firebase"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OS</h3>
+                    <span class="skills__nuber">50%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div>
-            <span class="qualification_rounder"></span>
-            <span class="qualification_line"></span>
+            <!--==================== Skill 3 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Technologies</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__nuber">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__nuber">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sketch"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__nuber">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__photoshop"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <!-- Qualification 2 -->
+      <!--==================== Qualifications ==================-->
 
-        <div class="qualification_data">
-            <h3 class="qualification_title">University</h3>
-            <span class="qualification_subtitle"> Strathmore University, Nairobi</span>
-            <div class="qualification_calendar">
-              <i class="uil uil-calendar-alt"></i>
-              2022 - Present
+      <section
+        class="qualification__section service__section"
+        id="qualification"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div
+          class="qualification__container container grid services__container"
+        >
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
             </div>
-            <span class="button button--flex button--small button--link services__button">
-              View More 
-              <i class="uil uil-arrow-right button_icon"></i>
-            </span>
-            <div class="services_modal">
-              <div class="services_modal-content">
-                <h4 class="services_modal-title">Summary :</h4>
-                <i class="uil uil-times services__modal-close"></i>
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Currently pursuing a Bachelor's degree in Informatics and Computer Science
-                      Studying core units such as: DSA, DBMS, OS, COA, Embeddes Systems, ML and AI</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>A member of the GDSC club</p>
-                  </li>
-                  <!--
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Participated in the Strathmore University Hackathon 2021</p>
-                  </li>
-                -->
-                </ul>
+          </div>
+
+          <div class="qualification__sections">
+            <!--====== Qualification Content 1 ======-->
+            <div
+              class="qualification__content qualifiation__active services__content"
+              data-content
+              id="education">
+
+              <!--====== Qualification 1 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">LCM</h3>
+                  <span class="qualification__subtitle">
+                    High School
+                  </span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018 - 2021
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button">
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon">
+                          </i>
+                          <p>
+                            Completed my high school education at LCM <br>
+                            Subjects studied: Mathematics, English, Biology, Chemistry, Physics, History, Geography.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored an B+ in my KCSE exams</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p> Participated in St Johns Ambulance club and was Games Captain </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--====== Qualification 2 ======-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">University</h3>
+                  <span class="qualification__subtitle">
+                    Strathmore University, Nairobi  .
+                  </span>
+                <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                   2022 - Present
+                </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Currently pursuing a Bachelor's degree in Informatics and Computer Science
+                            Studying core units such as: DSA, DBMS, OS, COA, Embedded Systems, ML and AI.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>A member of the GDSC club</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--====== Qualification 3 ======-->
+              <!--  
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">University</h3>
+                  <span class="qualification__subtitle"> Strathmore University, Nairobi </span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - Present
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button">
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">Summary :</h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Currently pursuing a Bachelor's degree in Informatics and Computer Science
+                            Studying core units such as: DSA, DBMS, OS, COA, Embeddes Systems, ML and AI.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                         /// <p>Scored an aggregate of 57 till now.</p> ///
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            A member of the GDSC club
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  /// <span class="qualification__line"></span> ///
+                </div>
+              </div>
+            -->
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ------------------------portfollio 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio1.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Drug Dispensing Tool Website
+                </h3>
+                <p class="portfolio__description">
+                  This project, aims to simplifiy medical management. Key features
+                  include personalized profiles, an interactive drug database,
+                  customizable reminders, and secure refill ordering. Doctors can see
+                  their patients and dispense drugs to them as required. An admin can
+                  oversee all those transactions and all their users in the system.
+                </p>
+                <a
+                  href="https://github.com/Wendy-Lagho/drugDispensingTool"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                
+                <a
+                  href="https://wendy-lagho.github.io/drugDispensingTool/"
+                  class="button button--flex button--small portfolio__button">
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 2-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio2.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Car Rental Website</h3>
+                <p class="portfolio__description">
+                  An intuitive car rental website facilitating seamless vehicle
+                  reservations. Implemented user-friendly features including a reasonable
+                  selection of vehicles, transparent pricing, convenient pickup/drop-off
+                  locations, and 24/7 customer support. Designed to optimize the rental
+                  process for customers, ensuring a stress-free and satisfying experience.
+                </p>
+                <a
+                  href="https://github.com/Wendy-Lagho/Car-rental-web"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                
+                <a
+                  href="https://wendy-lagho.github.io/Car-rental-web/"
+                  class="button button--flex button--small portfolio__button">
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              
+              </div>
+            </div>
+            <!-- ------------------------portfollio 3-------------------- -->
+            <!--
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio3.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Language Translator</h3>
+                <p class="portfolio__description">
+                  This language translator web app is a user-friendly tool built
+                  with HTML, CSS, and JavaScript. It leverages Google Translate
+                  API to seamlessly translate text between multiple languages.
+                  The app features a simple interface, ensuring smooth
+                  performance across devices..
+                </p>
+                <a
+                  href="https://github.com/Venkateeshh/Js-Language-Translator"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://venkateeshh.github.io/Js-Language-Translator/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            -->
+            <!-- ------------------------portfollio 4-------------------- -->
+            <!--
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio4.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Sorting Visualizer</h3>
+                <p class="portfolio__description">
+                  Sorting Visualizer is a Java-based project that allows users
+                  to visualize various sorting algorithms in action using a
+                  Graphical User Interface (GUI). It provides an interactive and
+                  educational way to understand how different sorting algorithms
+                  work by visually demonstrating their step-by-step sorting
+                  process.
+                </p>
+                <a
+                  href="https://github.com/Venkateeshh/Sorting-Visualizer"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
               </div>
             </div>
           </div>
 
-          <div>
-            <span class="qualification_rounder"></span>
-            <span class="qualification_line"></span>
+        -->
+
+          <!-- add arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
           </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-<!-- Portfolio -->
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
 
-<section class="portfolio section" id="portfolio">
-  <h2 class="section_title">Projects</h2>
-  <span class="section_subtitle">Most Recent Work</span>
-  <div class="portfolio_container container swiper-container">
-    <div class="swiper-wrapper">
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
 
-    <!--  portfolio 1 -->
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"
+                  ><a href="tel:6362243314"></a>+254 706 005 840</span
+                >
+              </div>
+            </div>
 
-    <div class="portfolio_content grid swiper-slide">
-      <img src="img/portfolio1.jpg" alt="" class="portfolio_img">
-      <div class="portfolio_data">
-        <h3 class="portfolio_title">Drug Dispensing Tool Website</h3>
-        <p class="portfolio_description">
-          Introducing our Drug Dispensing Tool – designed for patients, 
-          doctors, and pharmacists to efficiently manage prescriptions, 
-          medications, and medical records. This secure platform streamlines 
-          prescription management, medication tracking, and medical record storage, 
-          enhancing collaboration and patient care. Experience the future of healthcare 
-          management today.
-        </p>
-        <a href="https://github.com/Wendy-Lagho/drugDispensingTool" class="button button--flex button--small portfolio_button">
-          GitHub Repository
-          <i class="uil uil-external-link-alt button_icon"></i>
-        </a>
-        <a href="https://github.com/Wendy-Lagho/drugDispensingTool" class="button button--flex button--small portfolio_button">
-          See Live
-          <i class="uil uil-external-link-alt button_icon"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
 
-  <!-- add arrows -->
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >wlagho@gmail.com</span
+                >
+              </div>
+            </div>
 
-  <div class="swiper-button-next">
-    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-  </div>
-  <div class="swiper-button-prev">
-    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-  </div>
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
 
-  <!-- add pagination -->
-  <div class="swiper-pagination"></div>
-  </div>
-</section>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Nairobi, Kenya</span
+                >
+              </div>
+            </div>
+          </div>
 
-<!-- contact me  -->
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="content__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
 
-<section class="contact section" id="contact">
-  <h2 class="section_title">Contact Me</h2>
-  <span class="section_subtitle">Get in Touch</span>
+              <div class="contact__content">
+                <label for="" class="content__label">Email</label>
+                <input type="Email" class="contact__input" />
+              </div>
+            </div>
 
-  <div class="contact_container container grid">
-    <div>
-      <div class="contact_information">
-        <i class="uil uil-calling contact_icon"></i>
+            <div class="contact__content">
+              <label for="" class="content__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
 
-        <div>
-          <h3 class="contact_title">Contact Me</h3>
-          <span class="contact_subtitle">
-            <a href="tel:+254706005840"></a>+254 706 005 840</span>
+            <div>
+              <a
+                href=" mailto: wlagho@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                class="button button--flex"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
         </div>
-      </div>
+      </section>
+    </main>
 
-      <div class="contact_information">
-        <i class="uil uil-envelope-minus contact_icon"></i>
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Wendy</h1>
+            <span class="footer__subtitle"
+              >Informatics and Computer Science Student</span
+            >
+          </div>
 
-        <div>
-          <h3 class="contact_title">Email</h3>
-          <span class="contact_subtitle">
-            wlagho@gmail.com</span>
-        </div>
-      </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#qualification" class="footer__link">Qualification</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact-Me</a>
+            </li>
+          </ul>
 
-      <div class="contact_information">
-        <i class="uil uil-map-marker contact_icon"></i>
-
-        <div>
-          <h3 class="contact_title">Location</h3>
-          <span class="contact_subtitle">
-            Nairobi, Kenya</span>
-        </div>
-      </div>
-    </div>
-
-    <form action="" class="contact_form grid">
-      <div class="contact_inputs grid">
-        <div class="contact_content">
-          <label for="" class="contact_label">Name</label>
-          <input type="text" class="contact_input">
-        </div>
-
-        <div class="contact_content">
-          <label for="" class="contact_label">Email</label>
-          <input type="email" class="contact_input">
-        </div>
-      </div>
-
-      <div class="contact_content">
-        <label for="" class="contact_label">Message</label>
-        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
-      </div>
-
-      <div>
-        <a href="mailto: wlagho@gmail.com?subject=Testing out mailto! &body=This is only a test!" class="button button--flex">
-          Send Message
-          <i class="uil uil-message button_icon"></i>
-        </a>
-      </div>
-    </form>
-  </div>
-</section>
-  </main>
-
-  <!-- Footer -->
-
-  <footer class="footer">
-    <div class="footer_bg">
-      <div class="foooter_container container grid">
-        <div>
-          <h1 class="footer_title">Wendy</h1>
-          <span class="footer_subtitle">Informatics and Computer Science Student</span>
-        </div>
-        <ul class="footer_links">
-          <li>
-            <a href="#qualification" class="footer_link">Qualification</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="footer_link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact" class="footer_link">Contact-Me</a>
-          </li>
-        </ul>
-        <div class="footer_socials">
-          <a href="https://www.linkedin.com/in/wendy-lagho-2b3126236/" target="_blank" class="footer_social">
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/wendy-lagho-2b3126236/"
+              class="footer__social"
+              target="__blank"
+            >
             <i class="uil uil-linkedin-alt"></i>
-          </a>
-          <a href="https://github.com/Wendy-Lagho" target="_blank" class="footer_social">
+            </a>
+
+            <a
+              href="https://github.com/Wendy-Lagho"
+              target="__blank"
+              class="footer__social"
+            >
             <i class="uil uil-github-alt"></i>
-          </a>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Wendy. All right reserved</p>
       </div>
-    </div>
+    </footer>
 
-    <p class="footer_copy">&#169; Wendy Lagho. All rights reserved.</p>
-  </div>
-</footer>
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
-<!-- scroll Top -->
-<a href="#" class="scrollup" id="scroll-up">
-  <i class="uil uil-arrow-up scrollup_icon"></i>
-</a>
-
-<!-- Swiper JS -->
-<script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-<script src="assets/ptj.js"></script>
-</body>
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
 </html>
